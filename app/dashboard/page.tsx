@@ -44,11 +44,14 @@ interface DashboardData {
 }
 
 const defaultKPIs: Omit<DailyKPI, "id" | "completed">[] = [
-  { text: "Reach out to 5 potential clients" },
-  { text: "Post 1 piece of content" },
-  { text: "Work on current MVP for 2+ hours" },
-  { text: "Learn something new in AI (30 min)" },
-  { text: "Review and respond to all leads" },
+  { text: "Add 10 leads to outreach Google Sheet" },
+  { text: "Send 5 personalized outreach emails (run n8n workflow)" },
+  { text: "Record 1 short video of n8n automation demo" },
+  { text: "Post content to LinkedIn + X + Facebook" },
+  { text: "Work on Invoice SaaS MVP for 2+ hours" },
+  { text: "Follow up with warm leads / respond to inquiries" },
+  { text: "Learn 1 new AI tool or technique (30 min)" },
+  { text: "Log revenue and update financial tracker" },
   { text: "Exercise or movement (30 min)" },
 ];
 
